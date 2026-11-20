@@ -1,0 +1,14 @@
+{
+  "name": "transit-atlas",
+  "version": "1.0.0",
+  "description": "A machine learning lab for exploring and classifying stellar light curves.",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "dev": "node --watch server/index.mjs",
+    "test": "node --test tests/model.test.mjs tests/api.test.mjs",
+    "build:pages": "node scripts/build-pages.mjs"
+  }
+}

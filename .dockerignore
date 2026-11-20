@@ -1,0 +1,13 @@
+.git
+.github
+.openai
+.env*
+node_modules
+dist
+data
+**/*.sqlite*
+**/*.db
+**/*.log
+tests
+scripts
+README.md
